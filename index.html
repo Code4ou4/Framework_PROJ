@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DGTLSLVS | Digital Slaves</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
@@ -16,58 +17,37 @@
             <p class="lead fs-6 text-center bg-light p-2"> Free Express Shipping on orders above 400€ | 20% OFF ON SELECTED PRODUCTS </p>
         </div>
         <!-- LOGO TOP -->
-        <div class="row">
-            <a href="../index.html">  <img class="img-fluid logoTop pt-3 m-auto d-flex m-4 col-6 col-xs-4 col-sm-4 col-md-4 col-lg-3 " id="mainlogo" src="assets/img/digitalSlavesLogo.png"" alt="Logo Digital Slaves DGTLSLVS"></a>
+        <div data-aos="zoom-in-down" data-aos-duration="1500" class="row">
+            <a href="../index.html">  <img class="img-fluid logoTop pt-3 m-auto d-flex m-4 col-6 col-xs-4 col-sm-4 col-md-4 col-lg-3 " id="mainlogo" src="assets/img/digitalSlavesLogo.png" alt="Logo Digital Slaves DGTLSLVS"></a>
         </div>
                 
     </header>
-    <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg .justify-content-start-lg col-lg-3 pt-5">
-        <div class="container-fluid flex-lg-column">
-          <a class="navbar-brand" href="#">DIGITAL SLAVES ™ |</a>
-          <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav flex-sm-column">
-              <li class="nav-item">
-                <a class="nav-link active " aria-current="page" href="#">NEW ARRIVALS</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  ALL
-                </a> 
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li c><a class="dropdown-item" href="#">OUTWEAR</a></li>
-                  <li><a class="dropdown-item" href="#">DRESSES</a></li>
-                  <li><a class="dropdown-item" href="#">TOPS</a></li>
-                  <li><a class="dropdown-item" href="#">KNITWEAR</a></li>
-                  <li><a class="dropdown-item" href="#">BOTTOMS</a></li>
-                  <li><a class="dropdown-item" href="#">ACCESORIES AND BAGS</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">SHIPPING</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">CONTACT</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">TERMS & CONDITIONS</a>
-              </li>
-              
-            </ul>
-          </div>
-        </div>
-      </nav>
+    <!-- NAVBAR --> 
+  <main class="mb-">
+    <div class="mt-5 d-flex justify-content-center">
 
+      <video autoplay loop>
+          <source src="assets/vid/dgtlslvsVid.mp4">
+      </video>
+
+      
+
+    </div>
+
+    <div class="d-flex justify-content-center m-5">
+    <a class="btn btn-light" href="sections/shop.html " role="button">SHOP NOW</a>
+    
+    </div>
+  </main>
+  
+    
     
 
-    <footer class="fixed-bottom justify-content-between footer d-flex justify-content-center align-items-center">
+    <footer class="fixed-bottom justify-content-between footer d-flex justify-content-center align-items-center mt-5">
     
         <ul class="list-unstyled text-decoration-none bg-light d-flex flex-row col-12 justify-content-center p-3 align-items-center footer flex-wrap mb-0">
             <li class=""> <h3 class="fs-6 pe-3">© 2022 DIGITAL SLAVES | DGTLSLVS™ </h3"></li>
-            <li><a class="text-decoration-none" href="shop.html"><h3 class="fs-6 pe-3 link-dark"><b>SHOP</b></h3></a></li>
+            <li><a class="text-decoration-none" href="sections/shop.html"><h3 class="fs-6 pe-3 link-dark">SHOP</h3></a></li>
             <li><a class="text-decoration-none"  href="shipping.html"><h3 class="fs-6 pe-3 link-dark">SHIPPING</h3></a></li>
             <li><a class="text-decoration-none"  href="contact.html"><h3 class="fs-6 pe-3 link-dark">CONTACT</h3></a></li>
             <li><a class="text-decoration-none"  href="conditions.html"><h3 class="fs-6 pe-3 link-dark">TERMS & CONDITIONS</h3></a></li>
@@ -77,6 +57,10 @@
         
     </footer>      
     <!-- JavaScript Bundle with Popper -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
