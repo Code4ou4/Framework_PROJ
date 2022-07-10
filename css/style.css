@@ -5,3 +5,12 @@ img {
 .justifyText {
     text-align: justify;
 }
+
+.backgroundWhite {
+    background-color: white;
+}
+
+.noBorder {
+    border: none;
+}
+
