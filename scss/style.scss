@@ -1,0 +1,11 @@
+@import "./utilities/variables";
+
+footer nav {
+    background-color: $grey-background;
+        ul li a {
+            text-decoration: none;
+            &:hover{
+                color: $font-grey-hover;
+            }
+        }
+}

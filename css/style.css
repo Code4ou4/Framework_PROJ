@@ -1,0 +1,6 @@
+footer nav {
+  background-color: #e6e6e6; }
+  footer nav ul li a {
+    text-decoration: none; }
+    footer nav ul li a:hover {
+      color: #e6e6e6; }
