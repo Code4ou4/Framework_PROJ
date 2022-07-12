@@ -23,7 +23,13 @@ main div p:hover {
     
 }
 
-// EXTEND & MAP
+// EXTEND / MAP / MIXIN
+
+@mixin cardProp ($background,$textAlign,$fontSz){
+    background-color: $background;
+    text-align: $textAlign;
+    font-size: $fontSz ;
+}
 
 .cardBorder {
     border: map-get($cardExt, border);
@@ -32,5 +38,10 @@ main div p:hover {
 }   
 .cardExt {
     @extend .cardBorder;
-    background-color: rgb(206, 206, 206);
+    @include cardProp(rgb(208, 208, 208),center,small);
+    justify-content: $justify center;
 }
+
+
+
+
