@@ -2,10 +2,35 @@
 
 footer nav {
     background-color: $grey-background;
-        ul li a {
+        ul li a h3{
             text-decoration: none;
-            &:hover{
+            :hover{
                 color: $font-grey-hover;
             }
         }
+}
+
+.justifyText {
+    text-align: $justify center;
+}
+
+a:active {
+    color: $font-grey-hover;
+}
+
+main div p:hover {
+    color: $font-grey-hover;
+    
+}
+
+// EXTEND & MAP
+
+.cardBorder {
+    border: map-get($cardExt, border);
+    margin: map-get($cardExt, margin);
+    border-radius: map-get($cardExt, padding);
+}   
+.cardExt {
+    @extend .cardBorder;
+    background-color: rgb(206, 206, 206);
 }

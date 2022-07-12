@@ -1,6 +1,19 @@
 footer nav {
   background-color: #e6e6e6; }
-  footer nav ul li a {
+  footer nav ul li a h3 {
     text-decoration: none; }
-    footer nav ul li a:hover {
-      color: #e6e6e6; }
+    footer nav ul li a h3 :hover {
+      color: #c8c8c8; }
+
+.justifyText {
+  text-align: justify; }
+
+a:active {
+  color: #c8c8c8; }
+
+main div p:hover {
+  color: #c8c8c8; }
+
+.cardBorder, .card {
+  border-color: #c8c8c8;
+  border-radius: 5%; }
